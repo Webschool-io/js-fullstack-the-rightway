@@ -51,6 +51,7 @@ Ai que mora o segredo de todo esse conceito. Porque quando o sistema estiver OFF
 
 Porém o OPLOG do MongoDb segue a seguinte estrutura:
 
+```
    {
       "ts" : Timestamp(1395663575, 1),
       "h" : NumberLong("-5872498803080442915"),
@@ -63,6 +64,7 @@ Porém o OPLOG do MongoDb segue a seguinte estrutura:
           "title" : "Flyfishing"
           }
       }
+```
 
 - **ts** é o timestamp e guarda quando o momento que foi gerado esse OPLOG.
 
